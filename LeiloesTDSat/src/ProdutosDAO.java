@@ -92,7 +92,7 @@ public class ProdutosDAO {
         }
     }   
     
-    public ArrayList<ProdutosDTO> listarProdutosVendidos(){
+    public ArrayList<ProdutosDTO> listarProdutosVendidos(){ //Listar produtos vendidos
        listagem = new ArrayList<>();
        conn = new conectaDAO().connectDB();
        
