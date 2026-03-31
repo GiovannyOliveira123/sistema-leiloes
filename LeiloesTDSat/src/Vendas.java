@@ -153,7 +153,7 @@ public class Vendas extends javax.swing.JFrame {
     }
 
     
-    private void listarProdutos(){
+    private void listarProdutos(){ //Listar produtos
       try {
             ProdutosDAO produtosdao = new ProdutosDAO();
           
